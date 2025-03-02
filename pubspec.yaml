@@ -1,0 +1,38 @@
+name: hostel_manager
+description: A hostel management app for tracking members, meals, and market expenses.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.17.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.2.0
+  path_provider: ^2.0.11
+  fl_chart: ^0.55.1
+  intl: ^0.17.0
+
+  path: ^1.8.0
+  syncfusion_flutter_datagrid: ^20.1.56
+
+  url_launcher: ^6.1.14
+  fluttertoast: ^8.2.2
+  image_picker: ^0.8.5+3
+
+  firebase_core: ^2.15.0
+  cloud_firestore: ^4.8.0
+  firebase_auth: ^4.9.0
+  google_sign_in: ^6.1.5  # For Google Sign-In
+  googleapis: ^11.0.0     # For Google Drive API
+  googleapis_auth: ^1.3.0 # For OAuth authentication
+  http: ^1.3.0           # For making HTTP requests
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
