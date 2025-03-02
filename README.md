@@ -1,6 +1,7 @@
 # Smart_Hostel_Manager_2.0
 
 Before building floater app you have to must install flutter plugins, flutter plugins dependance etc.
+And also add flutter built file into the dart tool folder.
 
 
 অ্যাপের মূল ফিচারসমূহ:
